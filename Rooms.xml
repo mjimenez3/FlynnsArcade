@@ -1,0 +1,469 @@
+<class>
+    <room>
+        <name>IntroArcade</name>
+        <description>Where the player first enters the game</description>
+        <story_text>
+        You are 27 and a huge fan of the arcades and have been since you were a kid. There is something nostalgic about placing your quarter on the console as you wait to play next. Playing as long as you can on one quarter, and entering the initials SAM when you get high score.
+
+        You Google arcades in your area, and find only one, Flynn's Arcade.  There have been some crazy stories about this place and the owners, stuff you would only see in the movies.  It was closed for a long time, but now is flourishing.
+
+        You park and walk to the front doors. You remember all the games you used to play, the adrenaline rushes through you as you place your hand on the door.  Are you ready?</story_text>
+        <visible_buttons>2</visible_buttons>
+        <btn1_text>Yes</btn1_text>
+        <btn2_text>No</btn2_text>
+        <btn3_text/>
+        <btn4_text/>
+        <btn5_text/>
+        <btn6_text/>
+        <c1>StartingPoint0</c1>
+        <c2>StartingPoint0.5</c2>
+        <c3/>
+        <c4/>
+        <c5/>
+        <c6/>
+    </room>
+    <room>
+        <name>StartingPoint0.5</name>
+        <description>You said no to the game</description>
+        <story_text>
+        You don't want to ruin the memories you had, but you decide to go in anyways . . . .
+        </story_text>
+        <visible_buttons>1</visible_buttons>
+        <btn1_text>You feel strange!</btn1_text>
+        <btn2_text/>
+        <btn3_text/>
+        <btn4_text/>
+        <btn5_text/>
+        <btn6_text/>
+        <c1>StartingPoint0</c1>
+        <c2/>
+        <c3/>
+        <c4/>
+        <c5/>
+        <c6/>
+    </room>
+    <room>
+        <name>StartingPoint0</name>
+        <description>Starting point when the player first enters the pixelated world</description>
+        <story_text>
+        As you enter Flynn's Arcade it all comes back to you.  You feel 7 years old again.  Back to when your dad would take you to play, telling you about the Grid and how to play the games.
+
+        You notice that each game is accented with a specific light and for a moment you can do nothing but take in the lights and sounds the prizes,  and then . . . . you play!
+
+        What game do you want to play first?</story_text>
+        <visible_buttons>6</visible_buttons>
+        <btn1_text>to Frogger</btn1_text>
+        <btn2_text>to Snake</btn2_text>
+        <btn3_text>to Space Invaders</btn3_text>
+        <btn4_text>to Brick Breaker</btn4_text>
+        <btn5_text>Ticket Counter</btn5_text>
+        <btn6_text>to Pacman</btn6_text>
+        <c1>GreenPath1</c1>
+        <c2>PurplePath1</c2>
+        <c3>GoldPath1</c3>
+        <c4>RedPath1</c4>
+        <c5>PrizePath1</c5>
+        <c6>BluePath1</c6>
+    </room>
+    <room>
+        <name>StartingPoint</name>
+        <description>Starting point once the player revisits the area after already being in the game</description>
+        <story_text>
+        You are in the middle of Flynn's Arcade, where do you want to go?
+        </story_text>
+        <visible_buttons>6</visible_buttons>
+        <btn1_text>to Frogger</btn1_text>
+        <btn2_text>to Snake</btn2_text>
+        <btn3_text>to Space Invaders</btn3_text>
+        <btn4_text>to Brick Breaker</btn4_text>
+        <btn5_text>Ticket Counter</btn5_text>
+        <btn6_text>to Pacman</btn6_text>
+        <c1>GreenPath1</c1>
+        <c2>PurplePath1</c2>
+        <c3>GoldPath1</c3>
+        <c4>RedPath1</c4>
+        <c5>PrizePath1</c5>
+        <c6>BluePath1</c6>
+    </room>
+    <room>
+        <name>PurplePath1</name>
+        <description>Empty room</description>
+        <story_text>You follow the purple light as you hear hissing sounds.</story_text>
+        <visible_buttons>2</visible_buttons>
+        <btn1_text>Keep going toward the purple light</btn1_text>
+        <btn2_text>Head back to your starting point</btn2_text>
+        <btn3_text/>
+        <btn4_text/>
+        <btn5_text/>
+        <btn6_text/>
+        <c1>SnakeTerminal</c1>
+        <c2>StartingPoint</c2>
+        <c3/>
+        <c4/>
+        <c5/>
+        <c6/>
+    </room>
+    <room>
+        <name>SnakeTerminal</name>
+        <description>MiniGame that gives key upon completion before you earn key</description>
+        <story_text>A small, neon purple gaming terminal appears in front of you. It looks exactly like a normal arcade game, but pixelated. On the screen appears a familiar theme--a long snake eating a block, however the snake's body looks distorted. There are controllers beneath the screen.
+
+            After grabbing the controllers, you hear the same sounds that warped all around you before! You close your eyes in fear, and when you open them you see a familiar block in the distance. The snake is nowhere to be seen! You take one step forward to get a better look and you slither! Looking down in disbelief, you are completely purple. You have become the snake!</story_text>
+        <visible_buttons>0</visible_buttons>
+        <btn1_text/>
+        <btn2_text/>
+        <btn3_text/>
+        <btn4_text/>
+        <btn5_text/>
+        <btn6_text/>
+        <c1/>
+        <c2/>
+        <c3/>
+        <c4/>
+        <c5/>
+        <c6/>
+    </room>
+    <room>
+        <name>SnakeTerminalEnd</name>
+        <description>MiniGame that gives key upon completion after you earn key</description>
+        <story_text>You are probably not that good at driving with a trailer are you?  Don't forget your tickets.</story_text>
+        <visible_buttons>1</visible_buttons>
+        <btn1_text>Head back toward your starting point</btn1_text>
+        <btn2_text/>
+        <btn3_text/>
+        <btn4_text/>
+        <btn5_text/>
+        <btn6_text/>
+        <c1>StartingPoint</c1>
+        <c2/>
+        <c3/>
+        <c4/>
+        <c5/>
+        <c6/>
+    </room>
+    <room>
+        <name>GreenPath1</name>
+        <description>Empty room</description>
+        <story_text>You follow the green light as you hear the buzzing of flies.</story_text>
+        <visible_buttons>2</visible_buttons>
+        <btn1_text>Keep going toward the green light</btn1_text>
+        <btn2_text>Head back to your starting point</btn2_text>
+        <btn3_text/>
+        <btn4_text/>
+        <btn5_text/>
+        <btn6_text/>
+        <c1>FroggerTerminal</c1>
+        <c2>StartingPoint</c2>
+        <c3/>
+        <c4/>
+        <c5/>
+        <c6/>
+    </room>
+    <room>
+        <name>FroggerTerminal</name>
+        <description>MiniGame that gives key upon completion before you earn key</description>
+        <story_text>A small, neon green gaming terminal appears in front of you. It looks exactly like a normal arcade game, but pixelated. On the screen appears a familiar theme--a small frog crossing a busy road, however the frog looksdistorted. There are controllers beneath the screen.
+
+            What do you want to do?</story_text>
+        <visible_buttons>0</visible_buttons>
+        <btn1_text/>
+        <btn2_text/>
+        <btn3_text/>
+        <btn4_text/>
+        <btn5_text/>
+        <btn6_text/>
+        <c1/>
+        <c2/>
+        <c3/>
+        <c4/>
+        <c5/>
+        <c6/>
+    </room>
+    <room>
+        <name>FroggerTerminalEnd</name>
+        <description>MiniGame that gives key upon completion after you earn key</description>
+        <story_text>I would hate to see you cross a real street the way you were dodging vehicles. Don't forget your tickets.
+
+        </story_text>
+        <visible_buttons>1</visible_buttons>
+        <btn1_text>Head back toward your starting point</btn1_text>
+        <btn2_text/>
+        <btn3_text/>
+        <btn4_text/>
+        <btn5_text/>
+        <btn6_text/>
+        <c1>StartingPoint</c1>
+        <c2/>
+        <c3/>
+        <c4/>
+        <c5/>
+        <c6/>
+    </room>
+    <room>
+        <name>GoldPath1</name>
+        <description>Empty room</description>
+        <story_text>You follow the gold light, and feel the oxygen getting sucked out of the room.</story_text>
+        <visible_buttons>2</visible_buttons>
+        <btn1_text>Keep going toward the gold light</btn1_text>
+        <btn2_text>Head back to your starting point</btn2_text>
+        <btn3_text/>
+        <btn4_text/>
+        <btn5_text/>
+        <btn6_text/>
+        <c1>SpaceInvaderTerminal</c1>
+        <c2>StartingPoint</c2>
+        <c3/>
+        <c4/>
+        <c5/>
+        <c6/>
+    </room>
+    <room>
+        <name>SpaceInvaderTerminal</name>
+        <description>MiniGame that gives key upon completion before you earn key</description>
+        <story_text>A small, neon gold gaming terminal appears in front of you. It looks exactly like a normal arcade game, but pixelated. On the screen appears a familiar theme--a long snake eating a block, however the snake's body looks distorted. There are controllers beneath the screen.
+
+            After grabbing the controllers, you hear the same sounds that warped all around you before! You close your eyes in fear, and when you open them you see a familiar block in the distance. The snake is nowhere to be seen! You take one step forward to get a better look and you slither! Looking down in disbelief, you are completely gold. You have become the space invader!</story_text>
+        <visible_buttons>0</visible_buttons>
+        <btn1_text/>
+        <btn2_text/>
+        <btn3_text/>
+        <btn4_text/>
+        <btn5_text/>
+        <btn6_text/>
+        <c1/>
+        <c2/>
+        <c3/>
+        <c4/>
+        <c5/>
+        <c6/>
+    </room>
+    <room>
+        <name>SpaceInvaderTerminalEnd</name>
+        <description>MiniGame that gives key upon completion after you earn key</description>
+        <story_text>We know who to call when the aliens attack.
+
+            What do you want to do now?</story_text>
+        <visible_buttons>1</visible_buttons>
+        <btn1_text>Head back toward your starting point</btn1_text>
+        <btn2_text/>
+        <btn3_text/>
+        <btn4_text/>
+        <btn5_text/>
+        <btn6_text/>
+        <c1>StartingPoint</c1>
+        <c2/>
+        <c3/>
+        <c4/>
+        <c5/>
+        <c6/>
+    </room>
+    <room>
+        <name>RedPath1</name>
+        <description>Empty room</description>
+        <story_text>You follow the red light, bricks are falling everywhere.</story_text>
+        <visible_buttons>2</visible_buttons>
+        <btn1_text>Keep going toward the red light</btn1_text>
+        <btn2_text>Head back to your starting point</btn2_text>
+        <btn3_text/>
+        <btn4_text/>
+        <btn5_text/>
+        <btn6_text/>
+        <c1>BrickBreakerTerminal</c1>
+        <c2>StartingPoint</c2>
+        <c3/>
+        <c4/>
+        <c5/>
+        <c6/>
+    </room>
+    <room>
+        <name>BrickBreakerTerminal</name>
+        <description>MiniGame that gives key upon completion after you earn key</description>
+        <story_text>BrickBreaker game</story_text>
+        <visible_buttons>0</visible_buttons>
+        <btn1_text/>
+        <btn2_text/>
+        <btn3_text/>
+        <btn4_text/>
+        <btn5_text/>
+        <btn6_text/>
+        <c1/>
+        <c2/>
+        <c3/>
+        <c4/>
+        <c5/>
+        <c6/>
+    </room>
+    <room>
+        <name>BrickBreakerTerminalEnd</name>
+        <description>MiniGame that gives key upon completion after you earn key</description>
+        <story_text>You were the one that knocked down other kids' block castles aren't you?
+
+            What do you want to do now?</story_text>
+        <visible_buttons>1</visible_buttons>
+        <btn1_text>Head back toward your starting point</btn1_text>
+        <btn2_text/>
+        <btn3_text/>
+        <btn4_text/>
+        <btn5_text/>
+        <btn6_text/>
+        <c1>StartingPoint</c1>
+        <c2/>
+        <c3/>
+        <c4/>
+        <c5/>
+        <c6/>
+    </room>
+    <room>
+        <name>BluePath1</name>
+        <description>Empty room</description>
+        <story_text>You follow the blue light and suddenly feel hungry.</story_text>
+        <visible_buttons>2</visible_buttons>
+        <btn1_text>Keep going toward the blue light</btn1_text>
+        <btn2_text>Head back to your starting point</btn2_text>
+        <btn3_text/>
+        <btn4_text/>
+        <btn5_text/>
+        <btn6_text/>
+        <c1>PacmanTerminal</c1>
+        <c2>StartingPoint</c2>
+        <c3/>
+        <c4/>
+        <c5/>
+        <c6/>
+    </room>
+    <room>
+        <name>PacmanTerminal</name>
+        <description>MiniGame that gives key upon completion before you earn key</description>
+        <story_text>A small, neon gold gaming terminal appears in front of you. It looks exactly like a normal arcade game, but pixelated. On the screen appears a familiar theme--a long snake eating a block, however the snake's body looks distorted. There are controllers beneath the screen.
+
+            After grabbing the controllers, you hear the same sounds that warped all around you before! You close your eyes in fear, and when you open them you see a familiar block in the distance. The snake is nowhere to be seen! You take one step forward to get a better look and you slither! Looking down in disbelief, you are completely gold. You have become the space invader!</story_text>
+        <visible_buttons>0</visible_buttons>
+        <btn1_text/>
+        <btn2_text/>
+        <btn3_text/>
+        <btn4_text/>
+        <btn5_text/>
+        <btn6_text/>
+        <c1/>
+        <c2/>
+        <c3/>
+        <c4/>
+        <c5/>
+        <c6/>
+    </room>
+    <room>
+        <name>PacmanTerminalEnd</name>
+        <description>MiniGame that gives key upon completion after you earn key</description>
+        <story_text> Good eating, don't forget your tickets.
+
+            What do you want to do now?</story_text>
+        <visible_buttons>1</visible_buttons>
+        <btn1_text>Head back toward your starting point</btn1_text>
+        <btn2_text/>
+        <btn3_text/>
+        <btn4_text/>
+        <btn5_text/>
+        <btn6_text/>
+        <c1>StartingPoint</c1>
+        <c2/>
+        <c3/>
+        <c4/>
+        <c5/>
+        <c6/>
+    </room>
+    <room>
+        <name>PrizePath1</name>
+        <description>Empty room</description>
+        <story_text>Turn in your tickets for prizes!</story_text>
+        <visible_buttons>2</visible_buttons>
+        <btn1_text>Redeem Tickets</btn1_text>
+        <btn2_text>Head back to your starting point</btn2_text>
+        <btn3_text/>
+        <btn4_text/>
+        <btn5_text/>
+        <btn6_text/>
+        <c1>TicketCounterTerminal</c1>
+        <c2>StartingPoint</c2>
+        <c3/>
+        <c4/>
+        <c5/>
+        <c6/>
+    </room>
+    <room>
+        <name>TicketCounterTerminal</name>
+        <description>Redeem tickets and exit game</description>
+        <story_text>Welcome to Prize Central, trade your tickets in for prizes!</story_text>
+        <visible_buttons>2</visible_buttons>
+        <btn1_text>Back to Arcade</btn1_text>
+        <btn2_text>Exit Arcade</btn2_text>
+        <btn3_text/>
+        <btn4_text/>
+        <btn5_text/>
+        <btn6_text/>
+        <c1>StartingPoint</c1>
+        <c2>ExitDoorWin</c2>
+        <c3/>
+        <c4/>
+        <c5/>
+        <c6/>
+    </room>
+    <room>
+        <name>TicketCounterTerminalEnd</name>
+        <description>Redeem tickets and exit game</description>
+        <story_text>Come back and win more prizes when you have time!</story_text>
+        <visible_buttons>1</visible_buttons>
+        <btn1_text>Back to Arcade</btn1_text>
+        <btn2_text/>
+        <btn3_text/>
+        <btn4_text/>
+        <btn5_text/>
+        <btn6_text/>
+        <c1>StartingPoint</c1>
+        <c2/>
+        <c3/>
+        <c4/>
+        <c5/>
+        <c6/>
+    </room>
+    <room>
+        <name>ExitDoor</name>
+        <description>Exit door before both keys are acquired</description>
+        <story_text>A large, pixelated golden door appears in front of you. It has two key slots.
+
+            It looks like you don't have what you need to unlock the door.</story_text>
+        <visible_buttons>1</visible_buttons>
+        <btn1_text>Head back toward your starting point</btn1_text>
+        <btn2_text/>
+        <btn3_text/>
+        <btn4_text/>
+        <btn5_text/>
+        <btn6_text/>
+        <c1>GoldPath2</c1>
+        <c2/>
+        <c3/>
+        <c4/>
+        <c5/>
+        <c6/>
+    </room>
+    <room>
+        <name>ExitDoorWin</name>
+        <description>Exit door after both keys are acquired</description>
+        <story_text>You attained the two most valuable prizes in the arcade. The owner wants you to leave now.
+            A large, pixelated golden door appears in front of you.
+
+            You push open the door, and a bright white light blinds you. You rub your eyes, and when you open them, you are staring at the screen of the mysterious machine in the arcade. This time, the screen is now showing Frogger and Snake working as usual. You hear a coin drop below into the coin return panel. You grab the coin and look at it. This is the quarter you used to pay for the game, however one side of the quarter displays a glitched Frogger and the other side displays a glitched Snake. YOU WIN!!</story_text>
+        <visible_buttons>0</visible_buttons>
+        <btn1_text/>
+        <btn2_text/>
+        <btn3_text/>
+        <btn4_text/>
+        <btn5_text/>
+        <btn6_text/>
+        <c1/>
+        <c2/>
+        <c3/>
+        <c4/>
+        <c5/>
+        <c6/>
+    </room>
+</class>
